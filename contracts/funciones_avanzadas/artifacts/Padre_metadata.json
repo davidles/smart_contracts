@@ -11,6 +11,25 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "personal_contract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -41,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/funciones_avanzadas/3_factory.sol": {
-			"keccak256": "0xc194535c5cf88a7adeec3ac97bcb7cb158ea5f24ebf1d8bbecc01cbc96eed85e",
+			"keccak256": "0xc8b08c402c978c71433f0727b07a2dd77a24c53157ea029185cc56a40c25c930",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1c3a7bd5229c4f2d278d9a5b6888a0fe719a827a5493018ba88d88a7c9fdfee",
-				"dweb:/ipfs/QmTV5Bx8CfsZbjybvsLBejZdW7LM341DvepChm4PBUNZzP"
+				"bzz-raw://dc55e85750ac84bb9439f71514d1e6332e9a2cfd549ff628d574f6f303858538",
+				"dweb:/ipfs/QmWJpG6Qthw4rqxToUPQZ7Y4DGbCg1wAQCQjK433VzWw9K"
 			]
 		}
 	},

@@ -5,7 +5,7 @@ pragma solidity ^0.8.4;
 contract Padre {
 
     // Almacenamiento de la informacion del Factory
-    mapping(address => address) personal_contract;
+    mapping(address => address) public personal_contract;
 
     // Emision de los nuevos smart contracts
     function Fatory() public {
