@@ -21,25 +21,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "sum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "string",
 						"name": "operation",
 						"type": "string"
@@ -55,7 +36,26 @@
 						"type": "uint256"
 					}
 				],
-				"name": "sum_rest",
+				"name": "operations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -95,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/8_bucles_condicionales.sol": {
-			"keccak256": "0xa00eba21922885b99479fc90d93abafffaeecc21dc14387e09391027650f4706",
+			"keccak256": "0x36b0b8f863d9ecc9c235af54ef636ee76d0f25e4d2c420b2797f9b2b31d10e08",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb034b77a77d1a866d03a77c3d0e8febbc9c9774a6da5d42cba6dd5860ccd7e2",
-				"dweb:/ipfs/QmcuE3hVjssqzPyJuxUBDXE3AZoSM1sk5t69FxaVpYXVgM"
+				"bzz-raw://955a6456c22a2d45684efd97430da19e5a395d7530e7ef2c8012cb395fdb1e0e",
+				"dweb:/ipfs/QmXH8Mhd4KQCgXU87GynYN6FNRbe1D6HWr9Q1drt6uFBhQ"
 			]
 		}
 	},

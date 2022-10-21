@@ -34,15 +34,25 @@ contract loops_conditionals {
         return aux_sum;
     }
 
-    function sum_rest(string memory operation, uint a, uint b) public pure returns (uint){
+    function operations(string memory operation, uint a, uint b) public pure returns (uint){
         /*No se puede comparar directamente con el string memories con los ingresados por el usuario
           directamente.
         */
         bytes32 hash_operation = keccak256(abi.encodePacked(operation));
         if(hash_operation == keccak256(abi.encodePacked("suma"))){
             return a+b;
-        }else{
+        }
+        else if(hash_operation == keccak256(abi.encodePacked("resta"))){
             return a-b;
+        }
+        else if(hash_operation == keccak256(abi.encodePacked("multiplicacion"))){
+            return a*b;
+        }
+        else if(hash_operation == keccak256(abi.encodePacked("division"))){
+            return a/b;
+        }
+        else{
+            return 0;
         }
     }
 
