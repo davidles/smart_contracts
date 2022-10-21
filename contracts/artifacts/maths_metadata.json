@@ -66,6 +66,30 @@
 						"type": "uint256"
 					}
 				],
+				"name": "mod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
 				"name": "resta",
 				"outputs": [
 					{
@@ -130,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/7_maths.sol": {
-			"keccak256": "0x673371195176e7e0307ec9aebb5892e626230f367d33048b848bf605382bd80d",
+			"keccak256": "0x0ac70534a127cd95ee466a587f7a5ff256f7dfc0ee859b1ab6463f79cf4a555f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d6f9b41cd3f36863712a10039f81ce4440082ff916313a6d72ee90ce4181a188",
-				"dweb:/ipfs/QmQqnqvAGssFQsRKTjad2mPEz4ggGX65YjbQ7vLetZcCCV"
+				"bzz-raw://38bcb4154dba66df8e3bf298ef302c6b3435569f6eadf19b04cc530a44b9a8ba",
+				"dweb:/ipfs/QmNWroHb1FJafDPawrSFomyVsvc1w2reAhe5CCrXh6JgTR"
 			]
 		}
 	},
