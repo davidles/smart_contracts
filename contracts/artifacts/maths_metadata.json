@@ -4,7 +4,32 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "suma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +58,11 @@
 	},
 	"sources": {
 		"contracts/7_maths.sol": {
-			"keccak256": "0xd7335d1b6ffed5606c70f4acbd88574a03647921ae041121bd6ea859094d4a01",
+			"keccak256": "0xab78c9430995e6750cfa43145ea943ddab5fe19be896643f4bcf831fa5056056",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5583b74a4af92610a6364fdf51d0ea22dd0d4bdcc7a416673a6a5b600a5b377f",
-				"dweb:/ipfs/QmaBJbqHdZCAC7YVraTS2L6KhaUyXLdrjofhKD3fENPvFy"
+				"bzz-raw://bc2ba1a1d34080186f84d4016f510ff3efbf5d71dac0033403c76a956e542e52",
+				"dweb:/ipfs/QmdJykkKLtYZu5h3t2u9gLUDZyoXHPRT7cEQaY9FoLyYQX"
 			]
 		}
 	},
