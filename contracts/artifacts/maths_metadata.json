@@ -18,6 +18,30 @@
 						"type": "uint256"
 					}
 				],
+				"name": "resta",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
 				"name": "suma",
 				"outputs": [
 					{
@@ -58,11 +82,11 @@
 	},
 	"sources": {
 		"contracts/7_maths.sol": {
-			"keccak256": "0xab78c9430995e6750cfa43145ea943ddab5fe19be896643f4bcf831fa5056056",
+			"keccak256": "0x8732e5a3296798a1d83e539805a86d4698b0066dc3892f5224493b634d434a54",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bc2ba1a1d34080186f84d4016f510ff3efbf5d71dac0033403c76a956e542e52",
-				"dweb:/ipfs/QmdJykkKLtYZu5h3t2u9gLUDZyoXHPRT7cEQaY9FoLyYQX"
+				"bzz-raw://a3ab249be7afa4a6aa40ffa8cb49991c786547409ff9591caac8b4cb42b982a0",
+				"dweb:/ipfs/QmdMBvXQCJFWMZDeA82YHUtvXL4hrvGDQsAUhMkmumZPHD"
 			]
 		}
 	},
