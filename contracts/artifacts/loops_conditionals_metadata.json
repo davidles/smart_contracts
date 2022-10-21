@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "odd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -53,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/8_bucles_condicionales.sol": {
-			"keccak256": "0x2634f691f56ba65509b5377117d0e850a3c7cef0cd0575a9fc0382b8cc4935d4",
+			"keccak256": "0xe51e75e36a89d0633904b9dd701251ea72cd6ba3af1ef447bd240b471f9e72b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1d91ae29588c78676ab079da907eba3a8425f5f5d8c3b462e3f043df748e51f1",
-				"dweb:/ipfs/QmbyvWwqSJqQMFxdjHjaRLCT927nJijnMtktpvZvET4fjm"
+				"bzz-raw://6f2e6dac4d211a2815686b0cac201c59ab7eefff362acbb833a18f47064f9dd4",
+				"dweb:/ipfs/Qmab85bNvt1HGqWLuxJKUwGFoFPRNDHgsvuuHDX2Hrh7Kn"
 			]
 		}
 	},

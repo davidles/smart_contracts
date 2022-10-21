@@ -17,4 +17,21 @@ contract loops_conditionals {
 
     }
 
+    // Suma de los 10 primeros numeros impares
+    function odd() public pure returns (uint){
+        uint aux_sum = 0;
+        uint counter = 0;
+        uint counter_odd = 0;
+
+        while(counter_odd < 10){
+            if(counter % 2 != 0){
+                aux_sum = aux_sum + counter;
+                counter_odd++;
+            }
+            counter++;
+        }
+
+        return aux_sum;
+    }
+
 }
