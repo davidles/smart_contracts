@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_bucles_condicionales.sol": "loops_conditionals"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_bucles_condicionales.sol": {
+			"keccak256": "0x2634f691f56ba65509b5377117d0e850a3c7cef0cd0575a9fc0382b8cc4935d4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d91ae29588c78676ab079da907eba3a8425f5f5d8c3b462e3f043df748e51f1",
+				"dweb:/ipfs/QmbyvWwqSJqQMFxdjHjaRLCT927nJijnMtktpvZvET4fjm"
+			]
+		}
+	},
+	"version": 1
+}
