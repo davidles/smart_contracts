@@ -39,6 +39,10 @@
 			{
 				"stateMutability": "payable",
 				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -69,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/6_fallbacks_receive.sol": {
-			"keccak256": "0x2b5fe26f497f41131dcb16c4837d49d6b12859f20f8b143d9d8c3ed04ab59367",
+			"keccak256": "0x66944f2439c9fc025bc71e18f7911ee00135b73a5ad8a2259e3b99084142c10d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://79a17ce8255fd474348dfb216f875ab06788ff265e063c2142f1e49f868c585b",
-				"dweb:/ipfs/QmSt2to2btj6fmxJ3NAQRSpypQrvCA5iMuziXCPnA7gDdg"
+				"bzz-raw://eb97bd68aec498b00f0321be9a9784da41b8bd2f694ccdb1d9dc5db6c5a9b55a",
+				"dweb:/ipfs/Qma1xPNLo2KWaouQxe8dw5XowtRv3rRzZjBxbyRXKHf62u"
 			]
 		}
 	},
