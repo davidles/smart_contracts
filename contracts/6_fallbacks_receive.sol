@@ -19,7 +19,7 @@ msg.data -> El calldata completo, que es un area no modificable y no persistente
       receive()   fallback()
 */
 
-contract fallvack_receive{
+contract fallback_receive{
 
     event log( string _name, address _sender, uint _amount, bytes _data );
 
