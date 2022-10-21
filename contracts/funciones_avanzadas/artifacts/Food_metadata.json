@@ -4,32 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "menu",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "ingredientes",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -58,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/funciones_avanzadas/2_funciones avanzadas.sol": {
-			"keccak256": "0x6551b2c66a01545f155bf923ec7f4028fa546c94bd36fcc6ddf2513aca7c74ae",
+			"keccak256": "0xfdc651651e6d704b3db98a7a08cbfba8ec706d5162f8146adf64aa9298766c36",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://174177b82dcfcf0d5a0ae21cf6bd85ab5f1b02b52c930e6a4ea97e6fd7d8d4e9",
-				"dweb:/ipfs/QmXRSkJTDc2FMkR9ZAPCTrE8agg3DxTPefJHfJvyjJQvAk"
+				"bzz-raw://b1a88e65e8d4fe4caec01ad025784df472d323dace6864ad5080f5d0b0ace681",
+				"dweb:/ipfs/QmPXDYpL3qE2RWjYM2pTLARSpTSJbTqEXwUZDpj2vr2f7t"
 			]
 		}
 	},

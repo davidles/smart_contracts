@@ -11,7 +11,7 @@ contract Food {
     }
 
     // Menu del dia
-    dinnerPlate [] public menu;
+    dinnerPlate [] private menu;
 
     //Creacion de un nuevo menu
     function newMenu(string memory _name, string memory _ingredientes) internal {
