@@ -31,4 +31,9 @@ contract maths{
     function _addmod(uint x, uint y, uint k) public pure returns (uint, uint){
         return (addmod(x,y,k), ((x+y)%k));
     }
+
+    // (x+y)*k
+    function _mulmod(uint x, uint y, uint k) public pure returns (uint, uint){
+        return (mulmod(x,y,k), ((x*y)%k));
+    }    
 }
