@@ -14,4 +14,8 @@ contract maths{
     function div(uint a, uint b) public pure returns (uint){
         return a/b;
     }
+
+    function expon(uint a, uint b) public pure returns (uint){
+        return a**b;
+    }
 }
