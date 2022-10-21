@@ -22,4 +22,8 @@ contract maths{
     function mod(uint a, uint b) public pure returns (uint){
         return a%b;
     }
+
+    function mult(uint a, uint b) public pure returns (uint){
+        return a*b;
+    }
 }
