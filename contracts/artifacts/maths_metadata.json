@@ -9,6 +9,40 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "k",
+						"type": "uint256"
+					}
+				],
+				"name": "_addmod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "a",
 						"type": "uint256"
 					},
@@ -178,11 +212,11 @@
 	},
 	"sources": {
 		"contracts/7_maths.sol": {
-			"keccak256": "0xa0cead353fd8b699f6599b47e731a6f7ed3cd75c8da0c2a76466693bf971c3f6",
+			"keccak256": "0x8a467547342af5eac3aee29112f04a10811699b54e2d7a46343a49147c6171f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://972c582a319db16a9f2e3a186ab49dae49d2a687f32bef9258f764597745be2b",
-				"dweb:/ipfs/QmeHcM4Qdu1vf2BHo7gX51kQnQMB9HUgiBUSm4gH8Y87cm"
+				"bzz-raw://14c1fa32aee8bcaf3ad619a8b957b4e2f1471fc84f56c394b6c8623cb93acf81",
+				"dweb:/ipfs/Qmf9sH5jYFeuRnvJfhUz7Nn4hL9fL28D22fr3fuQSc3z3C"
 			]
 		}
 	},
