@@ -10,4 +10,8 @@ contract maths{
     function resta(uint a, uint b) public pure returns (uint){
         return a-b;
     }
+
+    function div(uint a, uint b) public pure returns (uint){
+        return a/b;
+    }
 }
