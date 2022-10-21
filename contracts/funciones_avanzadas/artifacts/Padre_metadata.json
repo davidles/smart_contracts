@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Fatory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funciones_avanzadas/3_factory.sol": "Padre"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funciones_avanzadas/3_factory.sol": {
+			"keccak256": "0xc194535c5cf88a7adeec3ac97bcb7cb158ea5f24ebf1d8bbecc01cbc96eed85e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1c3a7bd5229c4f2d278d9a5b6888a0fe719a827a5493018ba88d88a7c9fdfee",
+				"dweb:/ipfs/QmTV5Bx8CfsZbjybvsLBejZdW7LM341DvepChm4PBUNZzP"
+			]
+		}
+	},
+	"version": 1
+}
