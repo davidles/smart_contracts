@@ -37,7 +37,8 @@ contract fallback_receive{
             'receive', 
             msg.sender, 
             msg.value, 
-            "");
+            ""
+        );
     }
 
 }
