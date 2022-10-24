@@ -315,7 +315,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/token_ERC210/ERC-20.sol": {
+		"contracts/token_ERC210/ERC20.sol": {
 			"keccak256": "0x94dedcf3254066508c5fbe8817a8d357a91b88adb207f2ef86801ffcd01ce8c7",
 			"license": "MIT",
 			"urls": [
@@ -324,11 +324,11 @@
 			]
 		},
 		"contracts/token_ERC210/customERC20.sol": {
-			"keccak256": "0x0ebb4b21e7a605e6c0cbe2afd56d8ec524822a009c72f659f1471ebbba252461",
+			"keccak256": "0x8c7c2b066100afb60e54c5df307090bfa977fbf62dd14d98ce5ae87db77a50d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://621f4fedd1ba16f615c936165be10993436f5cb6d8f71423934aa1a3ad613889",
-				"dweb:/ipfs/QmVn4ikXaok6wDhhWzoyF9opFxLxka6WPD1mNutshwZfRK"
+				"bzz-raw://f0904677b040f2b54cb9fb2f3c1d3106e2126f1cb3f3caa58bc67dbaeee5e8a7",
+				"dweb:/ipfs/Qmc5k7qDDiFy58yisBvqTWrd5964N6CggnkVppN6GcecEq"
 			]
 		}
 	},
