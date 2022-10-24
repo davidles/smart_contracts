@@ -320,11 +320,11 @@
 	},
 	"sources": {
 		"contracts/token_ERC210/ERC-20.sol": {
-			"keccak256": "0x3e81825df41c2c58737c88e06097d3025563b0efda4e2ed0bd758a18a715774d",
+			"keccak256": "0x94dedcf3254066508c5fbe8817a8d357a91b88adb207f2ef86801ffcd01ce8c7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://578583865b9e790b026c7b59337772a10aa0c2ea161ffa51e7e8a91656d8b67d",
-				"dweb:/ipfs/QmRJaNJxvTx5zc4S1NXGZvxUYeh6xtyLEbP2G47cbCm8Bx"
+				"bzz-raw://6eec4a08ca5b6f540a2ca37bb83fcc017e5a02ca63eda5deb71d151e3745d917",
+				"dweb:/ipfs/QmS1MQ9azuEHyg7AEVaJVJMZPZf172CyaA1nt1hH7cM8J6"
 			]
 		}
 	},

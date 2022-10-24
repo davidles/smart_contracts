@@ -152,7 +152,10 @@ contract ERC20 is IERC20 {
     Requisitos:
     - `spender` no puede ser la direccion cero.
     - `spender` debe tener una asignacion para el usuario que ejecuta de al menos `subtractedValue`. */
-    function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
+    function decreaseAllowance(
+        address spender, 
+        uint256 subtractedValue
+        ) public virtual returns (bool) {
         address owner = msg.sender;
         uint256 currentAllowance = _allowances[owner][spender];
         require(currentAllowance >= subtractedValue, "ERC20: decreased allowance below zero");
