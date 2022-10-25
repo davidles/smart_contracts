@@ -305,7 +305,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/token_ERC210/ERC-20.sol": "ERC20"
+			"contracts/token_ERC210/ERC20.sol": "ERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -319,7 +319,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/token_ERC210/ERC-20.sol": {
+		"contracts/token_ERC210/ERC20.sol": {
 			"keccak256": "0x94dedcf3254066508c5fbe8817a8d357a91b88adb207f2ef86801ffcd01ce8c7",
 			"license": "MIT",
 			"urls": [
