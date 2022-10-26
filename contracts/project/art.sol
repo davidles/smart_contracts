@@ -8,7 +8,10 @@ import "@openzeppelin/contracts@4.4.2/access/Ownable.sol";
 
 contract ArtToken is ERC721, Ownable{
 
+    //==========================
     // Initial Statement
+    //==========================
+
 
     // smart contract constructor
     constructor(string memory _name, string memory _symbol)
@@ -34,6 +37,19 @@ contract ArtToken is ERC721, Ownable{
 
     //Declaration of an event
     event NerArtWork (address indexed owner, uint256 id, uint256 dna);
+
+    //==========================
+    // Help functions
+    //==========================
+
+    // creation of random number ( required for NFT token properties
+    function _createRandomNum(uint256 _mod) internal view returns (uint256){
+        bytes32 has_randomNum = keccak256(abi.encodePacked(block.timestamp, msg.sender));
+        uint256 randomNum = uint256(has_randomNum);
+        return randomNum % _mod; 
+    }
+
+
 }
 
 
