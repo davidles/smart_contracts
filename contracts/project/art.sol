@@ -13,6 +13,27 @@ contract ArtToken is ERC721, Ownable{
     // smart contract constructor
     constructor(string memory _name, string memory _symbol)
     ERC721(_name, _symbol){}
+
+    // NFT token counter
+    uint COUNTER;
+
+    // Price od NFT Tokens (price of the artwork)
+    uint fee = 5 ether;
+
+    // Data structure with the properties of the artwork
+    struct Art{
+        string name;
+        uint id;
+        uint dna;
+        uint level;
+        uint rarity;
+    }
+
+    // Storage structture for keeping artworks
+    Art [] public art_works;
+
+    //Declaration of an event
+    event NerArtWork (address indexed owner, uint256 id, uint256 dna);
 }
 
 

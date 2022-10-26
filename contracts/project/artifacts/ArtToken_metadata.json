@@ -77,6 +77,31 @@
 					{
 						"indexed": true,
 						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					}
+				],
+				"name": "NerArtWork",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
 						"name": "previousOwner",
 						"type": "address"
 					},
@@ -131,6 +156,45 @@
 				"name": "approve",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "art_works",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "level",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rarity",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -561,11 +625,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0xb6eb530c031e18e8245657aa46a6bd7e0a56ba3b840e57f59a88f3667071eff8",
+			"keccak256": "0x9c7fafa58416a7aceb47043cd8cec0cb98da3009a0c8c0a4bd295c703961ce2c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eef9d32c95466e75231a9e63e4f53f11e965335bf96d287ba4b78523bf485ec6",
-				"dweb:/ipfs/QmR6PTHbFdeyLC4nVFtgX7dsR1o4iKu1ZfTfBbjm5tpjXr"
+				"bzz-raw://a2fb4ad2fee88fa6dfb329b5e1a5c8f7ee2c775ac0c262e3dba2269daba92f23",
+				"dweb:/ipfs/QmV7iwSGsqfhBq4Xnc2yixG59CEkuBiCBsqjm9ybLPCVDK"
 			]
 		}
 	},
