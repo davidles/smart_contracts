@@ -466,6 +466,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_fee",
+						"type": "uint256"
+					}
+				],
+				"name": "updateFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -625,11 +638,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0xa0efdb6238d15ea6cb1a8e4ebc33d6fc5c62ace595a0d4a33aeff0a93bc7274d",
+			"keccak256": "0xb3f1c461eb66229b248364ac135d96835d05fa0473ad6e4f0053496ba9c82cf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a9856b4b3c07050d664c3237e6010d1567e27c858c757a7b494fb5891d97e73b",
-				"dweb:/ipfs/QmWULZtxvSGgnbNH5JMCzD33HScegBwFFGpWQorEjXCdMx"
+				"bzz-raw://500548b11a2d3f9d035c0493947379ddcc0a596f25f9330913ecd9c3c88d8b6c",
+				"dweb:/ipfs/QmRbzM7T4RByLa5KTgEMf6JLccPUZQa7WS7StdQN1xiKrY"
 			]
 		}
 	},

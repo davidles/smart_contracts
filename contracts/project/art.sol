@@ -61,6 +61,11 @@ contract ArtToken is ERC721, Ownable{
         COUNTER++;
     }
 
+    // NFT Token Price Update
+    function updateFee(uint256 _fee) external onlyOwner{
+        fee = _fee;
+    }
+
 
 }
 
