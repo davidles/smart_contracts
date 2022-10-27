@@ -237,6 +237,92 @@
 			},
 			{
 				"inputs": [],
+				"name": "getArtWorks",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dna",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "level",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rarity",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ArtToken.Art[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "getOwnerArtWork",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dna",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "level",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rarity",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ArtToken.Art[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "infoSmartContract",
 				"outputs": [
 					{
@@ -656,11 +742,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0xa05705d49989c50b1902b461af2a6d4d81c03dd2268618e6804cbd1292487f9e",
+			"keccak256": "0xdad38a35bd7858cdc5845c520f2c66033ccc131f7b89274809507d21ed81aafc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://59dcb92cbfa7e1780aade4e872c3323bedb64e016d0988dc4c73b31357b4b3ac",
-				"dweb:/ipfs/QmSrGzPAKxLPC4mk6iosZHs7CjTGbWfxg5t9BRXoxFTnBH"
+				"bzz-raw://fe87ca4ba4e90caf8b0d21b00d3ad42f795c86ec3a46d13103ecf9fe41da77f1",
+				"dweb:/ipfs/QmetsoJaSpF3yjRGfWPjVSoHGEYHtaaVScnarsazm3MWGZ"
 			]
 		}
 	},

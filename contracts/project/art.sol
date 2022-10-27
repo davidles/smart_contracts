@@ -73,6 +73,27 @@ contract ArtToken is ERC721, Ownable{
         return (SC_address, SC_money);
     }
 
+    // Obtaining all created NFT tokens (artwork)
+    function getArtWorks() public view returns (Art [] memory){
+        return art_works;
+    }
+
+    // Obtaining a user's NFTs tokens
+    function getOwnerArtWork(address _owner) public view returns (Art [] memory){
+        //Almaceno obras de arte
+        Art [] memory result = new Art[](balanceOf(_owner));
+        uint256 counter_owner = 0;
+        for (uint256 i = 0; i < art_works.length; i++){
+            // si la obra de arte == propiedad del dueño
+            if(ownerOf(i) == _owner){
+                // guardo en la posicion == la obra de arte
+                result[counter_owner] = art_works[i];
+                counter_owner++;
+            }
+        } 
+        return result;
+    }
+
 
 }
 
