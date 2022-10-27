@@ -755,11 +755,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0x82fab380d3f03abd08650d68ab2fe8a00e1cfbdb88824e97e13b97c96feb4d61",
+			"keccak256": "0xd9d106d883cedd31126a107f4bcbb4b4f83ffcfa6821105c0c614edeb649a182",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://59e5b404e57bc37a9b321baa0d31307ab38df682807af97b0999b057ade490a6",
-				"dweb:/ipfs/QmY5S1UxAcJ9WFdf1dTFTBiE2qFq29YJUrkL44puz3LhaW"
+				"bzz-raw://2d0679c944c67aac59d91b31b0c8da09fd5050ee44e195eb4351c118000a40cd",
+				"dweb:/ipfs/QmWNibt78xRWsAoZen9eEEa3jLcYDbGtNAgTk48PDwE6ph"
 			]
 		}
 	},

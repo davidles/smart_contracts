@@ -98,6 +98,7 @@ contract ArtToken is ERC721, Ownable{
     // NFT Token Development
     //==========================
 
+    //NFT token payable
     function createRandomArtWork(string memory _name) public payable {
         require(msg.value >= fee);
         _createArtWork(_name);
