@@ -219,6 +219,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createRandomArtWork",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "tokenId",
 						"type": "uint256"
@@ -742,11 +755,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0xdad38a35bd7858cdc5845c520f2c66033ccc131f7b89274809507d21ed81aafc",
+			"keccak256": "0x82fab380d3f03abd08650d68ab2fe8a00e1cfbdb88824e97e13b97c96feb4d61",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fe87ca4ba4e90caf8b0d21b00d3ad42f795c86ec3a46d13103ecf9fe41da77f1",
-				"dweb:/ipfs/QmetsoJaSpF3yjRGfWPjVSoHGEYHtaaVScnarsazm3MWGZ"
+				"bzz-raw://59e5b404e57bc37a9b321baa0d31307ab38df682807af97b0999b057ade490a6",
+				"dweb:/ipfs/QmY5S1UxAcJ9WFdf1dTFTBiE2qFq29YJUrkL44puz3LhaW"
 			]
 		}
 	},
