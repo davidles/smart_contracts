@@ -66,6 +66,13 @@ contract ArtToken is ERC721, Ownable{
         fee = _fee;
     }
 
+    // Visualize the balance of the Smart Contract ( ehters )
+    function infoSmartContract() public view returns(address, uint256){
+        address SC_address = address(this);
+        uint256 SC_money = address(this).balance / 10**18;
+        return (SC_address, SC_money);
+    }
+
 
 }
 

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.1+commit.df193b15"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -230,6 +230,24 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "infoSmartContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -545,7 +563,7 @@
 		"compilationTarget": {
 			"contracts/project/art.sol": "ArtToken"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -638,11 +656,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0xb3f1c461eb66229b248364ac135d96835d05fa0473ad6e4f0053496ba9c82cf8",
+			"keccak256": "0xa05705d49989c50b1902b461af2a6d4d81c03dd2268618e6804cbd1292487f9e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://500548b11a2d3f9d035c0493947379ddcc0a596f25f9330913ecd9c3c88d8b6c",
-				"dweb:/ipfs/QmRbzM7T4RByLa5KTgEMf6JLccPUZQa7WS7StdQN1xiKrY"
+				"bzz-raw://59dcb92cbfa7e1780aade4e872c3323bedb64e016d0988dc4c73b31357b4b3ac",
+				"dweb:/ipfs/QmSrGzPAKxLPC4mk6iosZHs7CjTGbWfxg5t9BRXoxFTnBH"
 			]
 		}
 	},
