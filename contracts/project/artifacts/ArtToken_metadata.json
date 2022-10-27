@@ -230,6 +230,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "fee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -775,11 +788,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0x1a8b259514985c3cc389d86914bdbb66bea98816a28b059de6e043ad63ad8d70",
+			"keccak256": "0x843237e54260de68ccf91163272fdd3d46fbcbe8b6faca6aa99d507ad91bd8df",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ca6899fbf590a14c80e136d8127fb71f845aa1702b1328465e47fddf204a2be0",
-				"dweb:/ipfs/QmY8ktxckF2TSxf1PhxXM8S7FMCPfSmJB2Skzu5Mnxwfww"
+				"bzz-raw://c32a4fccfc8b1bdc7f07627424a5d54708eeece9a3c1a620f1787393d4d169cd",
+				"dweb:/ipfs/QmcmbEmkgiRxue6PKHLo3onsAv5NWkmKgsk4Yy8fYrynYp"
 			]
 		}
 	},

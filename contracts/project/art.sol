@@ -21,7 +21,7 @@ contract ArtToken is ERC721, Ownable{
     uint COUNTER;
 
     // Price od NFT Tokens (price of the artwork)
-    uint fee = 5 ether;
+    uint public fee = 5 ether;
 
     // Data structure with the properties of the artwork
     struct Art{
