@@ -112,7 +112,7 @@ contract ArtToken is ERC721, Ownable{
 
     // Level up NFT tokens
     function levelUp(uint256 _artId) public{
-        require(ownerOf(_artId) == msg.sender);
+        require(ownerOf(_artId) == msg.sender, "Can't execute this action");
         Art storage art = art_works[_artId];
         art.level++;
     }
