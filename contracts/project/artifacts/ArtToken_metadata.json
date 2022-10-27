@@ -377,6 +377,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_artId",
+						"type": "uint256"
+					}
+				],
+				"name": "levelUp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -762,11 +775,11 @@
 			]
 		},
 		"contracts/project/art.sol": {
-			"keccak256": "0x15998c6b5dafcd0d068af5e2abbf6def62846c0e6e692cc2c4aa8a351b14c0c2",
+			"keccak256": "0xbda7ddf71d9b7933842f1a5b2585bab5b59186ea5677d9b0e0add28ba638185c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://13f9f1073a9dc0f3484c5f50b20b91500a0866fcf12916a55f471cdaaaf7cf0e",
-				"dweb:/ipfs/QmV4DznWhiR8b6AvjFwHz42uBAgdP8AHjUiKzdyJMSBBLL"
+				"bzz-raw://0f887718c1ff015a3aa4fca5b102af99bb293a14b60e60c00cdd514a998b39b6",
+				"dweb:/ipfs/QmfJVvEvhtzLPsAeqEuXs6ZrVPjT98A6LFuvTkA6rzUhKJ"
 			]
 		}
 	},
