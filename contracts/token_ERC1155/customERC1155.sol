@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts@4.5.0/token/ERC1155/ERC1155.sol";
 
-contract wec1155 is ERC1155{
+contract erc1155 is ERC1155{
 
     // Varibles
     uint256 public constant GOLD = 0;
